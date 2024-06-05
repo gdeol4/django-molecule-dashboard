@@ -1,0 +1,34 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Dashboard{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    {% tailwind_css %}
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-ivory-100 flex flex-col min-h-screen">
+    <header class="bg-white shadow">
+        <nav class="container mx-auto py-4 flex justify-between items-center">
+            <a href="#" class="font-bold text-xl">My Dashboard</a>
+            <div class="flex items-center">
+                <!-- Add navigation links or user menu here -->
+                <a href="#" class="ml-4 text-gray-600 hover:text-gray-800">Link 1</a>
+                <a href="#" class="ml-4 text-gray-600 hover:text-gray-800">Link 2</a>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-grow grid grid-cols-2 grid-rows-2 gap-4 p-4">
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>
