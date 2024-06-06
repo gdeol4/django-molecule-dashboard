@@ -1,34 +1,47 @@
-{% load static tailwind_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My Dashboard{% endblock %}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>{% block title %}Dashboard{% endblock %}</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    {% tailwind_css %}
     <style>
         body {
             font-family: 'Roboto', sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .properties-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .property-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .property-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            background-color: rgba(135, 206, 235, 0.3);
+            color: #333;
         }
     </style>
+    {% block extra_css %}{% endblock %}
 </head>
-<body class="bg-ivory-100 flex flex-col min-h-screen">
-    <header class="bg-white shadow">
-        <nav class="container mx-auto py-4 flex justify-between items-center">
-            <a href="#" class="font-bold text-xl">My Dashboard</a>
-            <div class="flex items-center">
-                <!-- Add navigation links or user menu here -->
-                <a href="#" class="ml-4 text-gray-600 hover:text-gray-800">Link 1</a>
-                <a href="#" class="ml-4 text-gray-600 hover:text-gray-800">Link 2</a>
-            </div>
-        </nav>
-    </header>
-    <main class="flex-grow grid grid-cols-2 grid-rows-2 gap-4 p-4">
-        {% block content %}
-        {% endblock %}
-    </main>
+<body>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    {% block extra_js %}{% endblock %}
 </body>
 </html>

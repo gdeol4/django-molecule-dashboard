@@ -1,19 +1,62 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div>
-    {% include 'dash/molecule_card.html' %}
+<div class="dashboard">
+    <div class="box">
+        {% include 'dash/molecule_card.html' %}
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <h2>Box 2</h2>
+            <p>Praesent eu risus hendrerit ligula tempus pretium.</p>
+            <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        </div>
+        <div class="box">
+            <h2>Box 3</h2>
+            <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec.</p>
+            <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+        </div>
+    </div>
 </div>
-<div class="bg-white shadow-xl border rounded-lg p-6">
-    <h2 class="text-xl font-bold mb-2">Box 2</h2>
-    <p>This is the content of box 2.</p>
+<div class="properties-box-container">
+<div class="properties-box">
+    {% include 'dash/molecule_properties.html' %}
 </div>
-<div class="bg-white shadow-xl border rounded-lg p-6">
-    <h2 class="text-xl font-bold mb-2">Box 3</h2>
-    <p>This is the content of box 3.</p>
 </div>
-<div class="bg-white shadow-xl border rounded-lg p-6">
-    <h2 class="text-xl font-bold mb-2">Box 4</h2>
-    <p>This is the content of box 4.</p>
-</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    .dashboard {
+        display: grid;
+        grid-template-columns: minmax(300px, 15%) 1fr;
+        grid-gap: 20px;
+    }
+    .box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .box {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+    .box img {
+        max-width: 100%;
+        height: auto;
+    }
+    .properties-box {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .properties-box-container {
+    max-width: 30%;
+    margin: 20px auto 0;
+    }
+</style>
 {% endblock %}

@@ -32,11 +32,11 @@ from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 
-def smiles_to_svg(smiles, size=(500, 500)):
+def smiles_to_svg(smiles, size=(300, 300)):
     mol = Chem.MolFromSmiles(smiles)
     
     # Create a drawer object
-    drawer = rdMolDraw2D.MolDraw2DSVG(size[0], size[1])
+    drawer = rdMolDraw2D.MolDraw2DSVG(300, 300)
     
     # Customize the color palette with natural tones
     drawer.drawOptions().updateAtomPalette({
@@ -47,8 +47,8 @@ def smiles_to_svg(smiles, size=(500, 500)):
     })
     
     # Adjust bond line width and font size
-    drawer.SetLineWidth(5)  # Increase bond line width
-    drawer.SetFontSize(0.8)  # Adjust font size
+    drawer.SetLineWidth(3)  # Increase bond line width
+    drawer.SetFontSize(1.2)  # Adjust font size
     
     # Apply ACS style
     rdMolDraw2D.PrepareAndDrawMolecule(drawer, mol)
