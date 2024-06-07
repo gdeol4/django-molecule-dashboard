@@ -1,0 +1,250 @@
+id,target_name,id_chembl,indication,probability,model_accuracy,inchikey_id
+43,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.55,98.95,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+44,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.55,98.95,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+45,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+46,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+47,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+48,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+49,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],88.07,99.23,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+50,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],88.07,99.23,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+51,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.09,98.95,ABIJFSBIBFNXES-UHFFFAOYSA-N
+52,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.09,98.95,ABIJFSBIBFNXES-UHFFFAOYSA-N
+53,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],81.19,99.23,ABIJFSBIBFNXES-UHFFFAOYSA-N
+54,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],81.19,99.23,ABIJFSBIBFNXES-UHFFFAOYSA-N
+55,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],97.2,98.95,AADNGOQDWPOULN-UHFFFAOYSA-N
+56,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],97.2,98.95,AADNGOQDWPOULN-UHFFFAOYSA-N
+57,Xanthine dehydrogenase,T40954,Encephalopathy [ICD-11: 8E47],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+58,Xanthine dehydrogenase,T40954,Gout [ICD-11: FA25],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+59,Xanthine dehydrogenase,T40954,Heart failure [ICD-11: BD10-BD13],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+60,Xanthine dehydrogenase,T40954,Hyperuricaemia [ICD-11: 5C55.Y],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+61,Xanthine dehydrogenase,T40954,Solid tumour/cancer [ICD-11: 2A00-2F9Z],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+62,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+63,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+64,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+65,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+66,Methionine aminopeptidase 2,T75596,Autoimmune diabetes [ICD-11: 5A10],80.17,97.28,AADNGOQDWPOULN-UHFFFAOYSA-N
+67,Methionine aminopeptidase 2,T75596,Obesity [ICD-11: 5B81],80.17,97.28,AADNGOQDWPOULN-UHFFFAOYSA-N
+68,Methionine aminopeptidase 2,T75596,Solid tumour/cancer [ICD-11: 2A00-2F9Z],80.17,97.28,AADNGOQDWPOULN-UHFFFAOYSA-N
+69,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],97.45,98.95,ABFGLANSNTWKHS-UHFFFAOYSA-N
+70,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],97.45,98.95,ABFGLANSNTWKHS-UHFFFAOYSA-N
+71,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+72,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+73,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+74,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+75,Estrogen receptor beta,T80896,Alzheimer disease [ICD-11: 8A20],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+76,Estrogen receptor beta,T80896,Breast cancer [ICD-11: 2C60-2C65],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+77,Estrogen receptor beta,T80896,Carcinoma [ICD-11: 2A00-2F9Z],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+78,Estrogen receptor beta,T80896,Cushing disease [ICD-11: 5A70],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+79,Estrogen receptor beta,T80896,Estrogen deficiency [ICD-11: FB83.0Y],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+80,Estrogen receptor beta,T80896,Hepatitis virus infection [ICD-11: 1E50-1E51],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+81,Estrogen receptor beta,T80896,Hot flushes [ICD-11: GA30],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+82,Estrogen receptor beta,T80896,Hyperlipidaemia [ICD-11: 5C80],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+83,Estrogen receptor beta,T80896,Inflammation [ICD-11: 1A00-CA43.1],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+84,Estrogen receptor beta,T80896,Inflammatory bowel disease [ICD-11: DD72],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+85,Estrogen receptor beta,T80896,Irregularities [ICD-11: N.A.],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+86,Estrogen receptor beta,T80896,Menopause symptom [ICD-11: GA30.0],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+87,Estrogen receptor beta,T80896,Ocular disease [ICD-11: 1F00.1Z],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+88,Estrogen receptor beta,T80896,Prostate cancer [ICD-11: 2C82.0],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+89,Estrogen receptor beta,T80896,Prostate hyperplasia [ICD-11: GA90],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+90,Estrogen receptor beta,T80896,Sepsis [ICD-11: 1G40-1G41],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+91,Estrogen receptor beta,T80896,Thrombocytopenia [ICD-11: 3B64],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+92,Estrogen receptor beta,T80896,Trematode infection [ICD-11: 1F8Y],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+93,Estrogen receptor beta,T80896,Vasomotor symptom [ICD-11: CA08],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+94,Methionine aminopeptidase 2,T75596,Autoimmune diabetes [ICD-11: 5A10],88.25,97.28,ABFGLANSNTWKHS-UHFFFAOYSA-N
+95,Methionine aminopeptidase 2,T75596,Obesity [ICD-11: 5B81],88.25,97.28,ABFGLANSNTWKHS-UHFFFAOYSA-N
+96,Methionine aminopeptidase 2,T75596,Solid tumour/cancer [ICD-11: 2A00-2F9Z],88.25,97.28,ABFGLANSNTWKHS-UHFFFAOYSA-N
+97,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],98.15,98.95,AAYULPZFZMTHED-UHFFFAOYSA-N
+98,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],98.15,98.95,AAYULPZFZMTHED-UHFFFAOYSA-N
+99,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+100,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+101,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+102,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+103,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],98.88,98.95,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+104,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],98.88,98.95,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+105,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+106,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+107,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+108,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+109,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.53,98.95,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+110,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.53,98.95,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+111,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+112,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+113,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+114,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+115,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],81.78,99.23,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+116,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],81.78,99.23,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+117,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],97.16,98.95,ACKVRMKWDURAQD-UHFFFAOYSA-N
+118,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],97.16,98.95,ACKVRMKWDURAQD-UHFFFAOYSA-N
+119,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+120,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+121,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+122,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+123,Cystic fibrosis transmembrane conductance regulator,T55654,Acute lung injury [ICD-11: NB32.3],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+124,Cystic fibrosis transmembrane conductance regulator,T55654,Cystic fibrosis [ICD-11: CA25],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+125,Cystic fibrosis transmembrane conductance regulator,T55654,Diarrhea [ICD-11: ME05.1],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+126,Cystic fibrosis transmembrane conductance regulator,T55654,HIV-associated diarrhoea [ICD-11: 1A2Z],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+127,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],95.11,98.95,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+128,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],95.11,98.95,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+129,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+130,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+131,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+132,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+133,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],82.72,99.23,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+134,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],82.72,99.23,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+135,Estrogen receptor beta,T80896,Alzheimer disease [ICD-11: 8A20],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+136,Estrogen receptor beta,T80896,Breast cancer [ICD-11: 2C60-2C65],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+137,Estrogen receptor beta,T80896,Carcinoma [ICD-11: 2A00-2F9Z],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+138,Estrogen receptor beta,T80896,Cushing disease [ICD-11: 5A70],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+139,Estrogen receptor beta,T80896,Estrogen deficiency [ICD-11: FB83.0Y],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+140,Estrogen receptor beta,T80896,Hepatitis virus infection [ICD-11: 1E50-1E51],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+141,Estrogen receptor beta,T80896,Hot flushes [ICD-11: GA30],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+142,Estrogen receptor beta,T80896,Hyperlipidaemia [ICD-11: 5C80],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+143,Estrogen receptor beta,T80896,Inflammation [ICD-11: 1A00-CA43.1],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+144,Estrogen receptor beta,T80896,Inflammatory bowel disease [ICD-11: DD72],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+145,Estrogen receptor beta,T80896,Irregularities [ICD-11: N.A.],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+146,Estrogen receptor beta,T80896,Menopause symptom [ICD-11: GA30.0],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+147,Estrogen receptor beta,T80896,Ocular disease [ICD-11: 1F00.1Z],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+148,Estrogen receptor beta,T80896,Prostate cancer [ICD-11: 2C82.0],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+149,Estrogen receptor beta,T80896,Prostate hyperplasia [ICD-11: GA90],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+150,Estrogen receptor beta,T80896,Sepsis [ICD-11: 1G40-1G41],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+151,Estrogen receptor beta,T80896,Thrombocytopenia [ICD-11: 3B64],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+152,Estrogen receptor beta,T80896,Trematode infection [ICD-11: 1F8Y],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+153,Estrogen receptor beta,T80896,Vasomotor symptom [ICD-11: CA08],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+154,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.28,98.95,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+155,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.28,98.95,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+156,Xanthine dehydrogenase,T40954,Encephalopathy [ICD-11: 8E47],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+157,Xanthine dehydrogenase,T40954,Gout [ICD-11: FA25],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+158,Xanthine dehydrogenase,T40954,Heart failure [ICD-11: BD10-BD13],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+159,Xanthine dehydrogenase,T40954,Hyperuricaemia [ICD-11: 5C55.Y],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+160,Xanthine dehydrogenase,T40954,Solid tumour/cancer [ICD-11: 2A00-2F9Z],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+161,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],89.41,99.23,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+162,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],89.41,99.23,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+163,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+164,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+165,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+166,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+167,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.55,98.95,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+168,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.55,98.95,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+169,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+170,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+171,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+172,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],94.99,99.15,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+173,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],88.07,99.23,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+174,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],88.07,99.23,ACHIMAQPWZMJAP-UHFFFAOYSA-N
+175,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.09,98.95,ABIJFSBIBFNXES-UHFFFAOYSA-N
+176,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.09,98.95,ABIJFSBIBFNXES-UHFFFAOYSA-N
+177,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],81.19,99.23,ABIJFSBIBFNXES-UHFFFAOYSA-N
+178,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],81.19,99.23,ABIJFSBIBFNXES-UHFFFAOYSA-N
+179,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],97.2,98.95,AADNGOQDWPOULN-UHFFFAOYSA-N
+180,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],97.2,98.95,AADNGOQDWPOULN-UHFFFAOYSA-N
+181,Xanthine dehydrogenase,T40954,Encephalopathy [ICD-11: 8E47],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+182,Xanthine dehydrogenase,T40954,Gout [ICD-11: FA25],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+183,Xanthine dehydrogenase,T40954,Heart failure [ICD-11: BD10-BD13],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+184,Xanthine dehydrogenase,T40954,Hyperuricaemia [ICD-11: 5C55.Y],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+185,Xanthine dehydrogenase,T40954,Solid tumour/cancer [ICD-11: 2A00-2F9Z],93.51,96.12,AADNGOQDWPOULN-UHFFFAOYSA-N
+186,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+187,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+188,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+189,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],86.89,99.15,AADNGOQDWPOULN-UHFFFAOYSA-N
+190,Methionine aminopeptidase 2,T75596,Autoimmune diabetes [ICD-11: 5A10],80.17,97.28,AADNGOQDWPOULN-UHFFFAOYSA-N
+191,Methionine aminopeptidase 2,T75596,Obesity [ICD-11: 5B81],80.17,97.28,AADNGOQDWPOULN-UHFFFAOYSA-N
+192,Methionine aminopeptidase 2,T75596,Solid tumour/cancer [ICD-11: 2A00-2F9Z],80.17,97.28,AADNGOQDWPOULN-UHFFFAOYSA-N
+193,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],97.45,98.95,ABFGLANSNTWKHS-UHFFFAOYSA-N
+194,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],97.45,98.95,ABFGLANSNTWKHS-UHFFFAOYSA-N
+195,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+196,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+197,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+198,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],90.45,99.15,ABFGLANSNTWKHS-UHFFFAOYSA-N
+199,Estrogen receptor beta,T80896,Alzheimer disease [ICD-11: 8A20],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+200,Estrogen receptor beta,T80896,Breast cancer [ICD-11: 2C60-2C65],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+201,Estrogen receptor beta,T80896,Carcinoma [ICD-11: 2A00-2F9Z],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+202,Estrogen receptor beta,T80896,Cushing disease [ICD-11: 5A70],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+203,Estrogen receptor beta,T80896,Estrogen deficiency [ICD-11: FB83.0Y],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+204,Estrogen receptor beta,T80896,Hepatitis virus infection [ICD-11: 1E50-1E51],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+205,Estrogen receptor beta,T80896,Hot flushes [ICD-11: GA30],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+206,Estrogen receptor beta,T80896,Hyperlipidaemia [ICD-11: 5C80],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+207,Estrogen receptor beta,T80896,Inflammation [ICD-11: 1A00-CA43.1],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+208,Estrogen receptor beta,T80896,Inflammatory bowel disease [ICD-11: DD72],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+209,Estrogen receptor beta,T80896,Irregularities [ICD-11: N.A.],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+210,Estrogen receptor beta,T80896,Menopause symptom [ICD-11: GA30.0],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+211,Estrogen receptor beta,T80896,Ocular disease [ICD-11: 1F00.1Z],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+212,Estrogen receptor beta,T80896,Prostate cancer [ICD-11: 2C82.0],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+213,Estrogen receptor beta,T80896,Prostate hyperplasia [ICD-11: GA90],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+214,Estrogen receptor beta,T80896,Sepsis [ICD-11: 1G40-1G41],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+215,Estrogen receptor beta,T80896,Thrombocytopenia [ICD-11: 3B64],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+216,Estrogen receptor beta,T80896,Trematode infection [ICD-11: 1F8Y],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+217,Estrogen receptor beta,T80896,Vasomotor symptom [ICD-11: CA08],90.43,98.35,ABFGLANSNTWKHS-UHFFFAOYSA-N
+218,Methionine aminopeptidase 2,T75596,Autoimmune diabetes [ICD-11: 5A10],88.25,97.28,ABFGLANSNTWKHS-UHFFFAOYSA-N
+219,Methionine aminopeptidase 2,T75596,Obesity [ICD-11: 5B81],88.25,97.28,ABFGLANSNTWKHS-UHFFFAOYSA-N
+220,Methionine aminopeptidase 2,T75596,Solid tumour/cancer [ICD-11: 2A00-2F9Z],88.25,97.28,ABFGLANSNTWKHS-UHFFFAOYSA-N
+221,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],98.15,98.95,AAYULPZFZMTHED-UHFFFAOYSA-N
+222,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],98.15,98.95,AAYULPZFZMTHED-UHFFFAOYSA-N
+223,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+224,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+225,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+226,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],82.52,99.15,AAYULPZFZMTHED-UHFFFAOYSA-N
+227,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],98.88,98.95,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+228,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],98.88,98.95,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+229,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+230,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+231,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+232,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],85.94,99.15,ACNVUFYFWVZSGZ-UHFFFAOYSA-N
+233,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.53,98.95,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+234,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.53,98.95,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+235,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+236,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+237,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+238,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],93.31,99.15,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+239,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],81.78,99.23,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+240,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],81.78,99.23,ABKIZJIYYYJWPR-UHFFFAOYSA-N
+241,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],97.16,98.95,ACKVRMKWDURAQD-UHFFFAOYSA-N
+242,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],97.16,98.95,ACKVRMKWDURAQD-UHFFFAOYSA-N
+243,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+244,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+245,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+246,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],89.68,99.15,ACKVRMKWDURAQD-UHFFFAOYSA-N
+247,Cystic fibrosis transmembrane conductance regulator,T55654,Acute lung injury [ICD-11: NB32.3],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+248,Cystic fibrosis transmembrane conductance regulator,T55654,Cystic fibrosis [ICD-11: CA25],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+249,Cystic fibrosis transmembrane conductance regulator,T55654,Diarrhea [ICD-11: ME05.1],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+250,Cystic fibrosis transmembrane conductance regulator,T55654,HIV-associated diarrhoea [ICD-11: 1A2Z],81.99,95.71,ACKVRMKWDURAQD-UHFFFAOYSA-N
+251,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],95.11,98.95,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+252,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],95.11,98.95,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+253,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+254,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+255,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+256,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],86.6,99.15,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+257,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],82.72,99.23,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+258,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],82.72,99.23,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+259,Estrogen receptor beta,T80896,Alzheimer disease [ICD-11: 8A20],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+260,Estrogen receptor beta,T80896,Breast cancer [ICD-11: 2C60-2C65],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+261,Estrogen receptor beta,T80896,Carcinoma [ICD-11: 2A00-2F9Z],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+262,Estrogen receptor beta,T80896,Cushing disease [ICD-11: 5A70],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+263,Estrogen receptor beta,T80896,Estrogen deficiency [ICD-11: FB83.0Y],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+264,Estrogen receptor beta,T80896,Hepatitis virus infection [ICD-11: 1E50-1E51],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+265,Estrogen receptor beta,T80896,Hot flushes [ICD-11: GA30],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+266,Estrogen receptor beta,T80896,Hyperlipidaemia [ICD-11: 5C80],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+267,Estrogen receptor beta,T80896,Inflammation [ICD-11: 1A00-CA43.1],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+268,Estrogen receptor beta,T80896,Inflammatory bowel disease [ICD-11: DD72],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+269,Estrogen receptor beta,T80896,Irregularities [ICD-11: N.A.],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+270,Estrogen receptor beta,T80896,Menopause symptom [ICD-11: GA30.0],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+271,Estrogen receptor beta,T80896,Ocular disease [ICD-11: 1F00.1Z],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+272,Estrogen receptor beta,T80896,Prostate cancer [ICD-11: 2C82.0],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+273,Estrogen receptor beta,T80896,Prostate hyperplasia [ICD-11: GA90],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+274,Estrogen receptor beta,T80896,Sepsis [ICD-11: 1G40-1G41],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+275,Estrogen receptor beta,T80896,Thrombocytopenia [ICD-11: 3B64],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+276,Estrogen receptor beta,T80896,Trematode infection [ICD-11: 1F8Y],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+277,Estrogen receptor beta,T80896,Vasomotor symptom [ICD-11: CA08],80.31,98.35,ABIDTPIPXGGOOI-UHFFFAOYSA-N
+278,Cathepsin D,T67102,Hypertension [ICD-11: BA00-BA04],96.28,98.95,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+279,Cathepsin D,T67102,Multiple sclerosis [ICD-11: 8A40],96.28,98.95,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+280,Xanthine dehydrogenase,T40954,Encephalopathy [ICD-11: 8E47],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+281,Xanthine dehydrogenase,T40954,Gout [ICD-11: FA25],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+282,Xanthine dehydrogenase,T40954,Heart failure [ICD-11: BD10-BD13],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+283,Xanthine dehydrogenase,T40954,Hyperuricaemia [ICD-11: 5C55.Y],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+284,Xanthine dehydrogenase,T40954,Solid tumour/cancer [ICD-11: 2A00-2F9Z],95.4,96.12,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+285,Casein kinase II alpha/beta,T51565,Cholangiocarcinoma [ICD-11: 2C12.10],89.41,99.23,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+286,Casein kinase II alpha/beta,T51565,Solid tumour/cancer [ICD-11: 2A00-2F9Z],89.41,99.23,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+287,Thyroid hormone receptor alpha,T79591,Congestive heart failure [ICD-11: BD10],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+288,Thyroid hormone receptor alpha,T79591,High blood cholesterol level [ICD-11: 5C80.00],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+289,Thyroid hormone receptor alpha,T79591,Hypothyroidism [ICD-11: 5A00],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+290,Thyroid hormone receptor alpha,T79591,Wound healing [ICD-11: EL8Y],87.41,99.15,ABDQTIKKAYGHNV-UHFFFAOYSA-N
+291,,,,,,

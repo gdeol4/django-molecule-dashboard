@@ -1,0 +1,87 @@
+<!-- dash/templates/dash/protein_target_predictions_box.html -->
+<div class="protein-target-predictions-box">
+    <h2 class="box-title">Protein Target Predictions</h2>
+    {% if admet_data.protein_target_predictions %}
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ALOX5</th>
+                        <th>CASP1</th>
+                        <th>COX1</th>
+                        <th>FLAP</th>
+                        <th>JAK1</th>
+                        <th>JAK2</th>
+                        <th>LCK</th>
+                        <th>MAGL</th>
+                        <th>MPGES1</th>
+                        <th>PDL1</th>
+                        <th>TRKA</th>
+                        <th>TRKB</th>
+                        <th>TYK2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ admet_data.protein_target_predictions.0.alox5_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.casp1_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.cox1_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.flap_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.jak1_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.jak2_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.lck_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.magl_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.mpges1_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.pdl1_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.trka_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.trkb_affinity_uM|floatformat:2 }}</td>
+                        <td>{{ admet_data.protein_target_predictions.0.tyk2_affinity_uM|floatformat:2 }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="no-data">No protein target predictions available.</p>
+    {% endif %}
+</div>
+
+<style>
+    .protein-target-predictions-box {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .protein-target-predictions-box .box-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .protein-target-predictions-box .table-responsive {
+        overflow-x: auto;
+    }
+
+    .protein-target-predictions-box .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .protein-target-predictions-box .table th,
+    .protein-target-predictions-box .table td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #dee2e6;
+    }
+
+    .protein-target-predictions-box .table th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+    }
+
+    .protein-target-predictions-box .no-data {
+        font-style: italic;
+        color: #6c757d;
+    }
+</style>

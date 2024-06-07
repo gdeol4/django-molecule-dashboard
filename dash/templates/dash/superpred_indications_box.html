@@ -1,0 +1,55 @@
+<div class="superpred-indications-box">
+    <h2 class="box-title">SuperPred Indications</h2>
+    {% if admet_data.superpred_indications_df %}
+        <div class="table-container">
+            {{ admet_data.superpred_indications_df|safe }}
+        </div>
+    {% else %}
+        <p class="no-data">No SuperPred indications available.</p>
+    {% endif %}
+</div>
+
+<style>
+    .superpred-indications-box {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .superpred-indications-box .box-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .superpred-indications-box .table-container {
+        overflow-x: auto;
+    }
+
+    .superpred-indications-box table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .superpred-indications-box th,
+    .superpred-indications-box td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .superpred-indications-box th {
+        background-color: #e9ecef;
+        font-weight: bold;
+    }
+
+    .superpred-indications-box tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    .superpred-indications-box .no-data {
+        font-style: italic;
+        color: #6c757d;
+    }
+</style>

@@ -1,0 +1,55 @@
+<div class="superpred-target-predictions-box">
+    <h2 class="box-title">SuperPred Target Predictions</h2>
+    {% if admet_data.superpred_target_predictions_df %}
+        <div class="table-container">
+            {{ admet_data.superpred_target_predictions_df|safe }}
+        </div>
+    {% else %}
+        <p class="no-data">No SuperPred target predictions available.</p>
+    {% endif %}
+</div>
+
+<style>
+    .superpred-target-predictions-box {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .superpred-target-predictions-box .box-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .superpred-target-predictions-box .table-container {
+        overflow-x: auto;
+    }
+
+    .superpred-target-predictions-box table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .superpred-target-predictions-box th,
+    .superpred-target-predictions-box td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .superpred-target-predictions-box th {
+        background-color: #e9ecef;
+        font-weight: bold;
+    }
+
+    .superpred-target-predictions-box tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    .superpred-target-predictions-box .no-data {
+        font-style: italic;
+        color: #6c757d;
+    }
+</style>

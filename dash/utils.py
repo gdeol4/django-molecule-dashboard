@@ -56,3 +56,63 @@ def smiles_to_svg(smiles, size=(300, 300)):
     drawer.FinishDrawing()
     svg = drawer.GetDrawingText()
     return svg
+
+# dash/utils.py
+from .models import GeneratedFlavonoid, AdmetProperties, ProteinTargetPrediction, SuperPredTargetPrediction, SuperPredIndication
+import pandas as pd
+
+def get_flavonoid_data():
+    flavonoid = GeneratedFlavonoid.objects.first()
+
+    if flavonoid:
+        admet_properties = AdmetProperties.objects.filter(inchikey=flavonoid).first()
+        protein_target_predictions = ProteinTargetPrediction.objects.filter(inchikey=flavonoid)
+        superpred_target_predictions_df = get_superpred_target_predictions(flavonoid.inchikey)
+        superpred_indications_df = get_superpred_indications(flavonoid.inchikey)
+
+        data = {
+            'flavonoid': {
+                'inchikey': flavonoid.inchikey,
+                'smiles': flavonoid.smiles,
+                'molecular_weight': flavonoid.molecular_weight,
+                # Add other fields from GeneratedFlavonoid as needed
+            },
+            'admet_properties': admet_properties,
+            'protein_target_predictions': protein_target_predictions,
+            'superpred_target_predictions_df': superpred_target_predictions_df.to_html(index=False, classes='table table-striped'),
+            'superpred_indications_df': superpred_indications_df.to_html(index=False, classes='table table-striped')
+        }
+    else:
+        data = {}
+
+    return data
+
+def get_superpred_target_predictions(inchikey):
+    superpred_target_predictions = SuperPredTargetPrediction.objects.filter(inchikey=inchikey)
+    data = []
+    for prediction in superpred_target_predictions:
+        data.append({
+            'target_name': prediction.target_name,
+            'id_chembl': prediction.id_chembl,
+            'id_uniprot': prediction.id_uniprot,
+            'id_pdb': prediction.id_pdb,
+            'id_tdd': prediction.id_tdd,
+            'probability': prediction.probability,
+            'model_accuracy': prediction.model_accuracy
+        })
+    df = pd.DataFrame(data)
+    return df
+
+def get_superpred_indications(inchikey):
+    superpred_indications = SuperPredIndication.objects.filter(inchikey=inchikey)
+    data = []
+    for indication in superpred_indications:
+        data.append({
+            'target_name': indication.target_name,
+            'id_chembl': indication.id_chembl,
+            'indication': indication.indication,
+            'probability': indication.probability,
+            'model_accuracy': indication.model_accuracy
+        })
+    df = pd.DataFrame(data)
+    return df

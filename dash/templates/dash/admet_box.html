@@ -1,0 +1,191 @@
+<!-- dash/templates/dash/admet_box.html -->
+<div class="admet-box">
+    <h2 class="admet-title">ADMET Properties</h2>
+    {% if admet_data.admet_properties %}
+        <div class="admet-tables">
+            <div class="admet-table-container">
+                <h3 class="admet-subtitle">Absorption</h3>
+                <table class="admet-table">
+                    <tbody>
+                        <tr>
+                            <td class="admet-property">BBB</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.bbb|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">Bioavailability</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.bioavailability|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">Caco2</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.caco2|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">HIA</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.hia|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">PGP</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.pgp|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">Solubility</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.solubility|floatformat:2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="admet-table-container">
+                <h3 class="admet-subtitle">Distribution</h3>
+                <table class="admet-table">
+                    <tbody>
+                        <tr>
+                            <td class="admet-property">Lipophilicity</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.lipophilicity|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">PPBR</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.ppbr|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">VDSS</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.vdss|floatformat:2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="admet-table-container">
+                <h3 class="admet-subtitle">Metabolism</h3>
+                <table class="admet-table">
+                    <tbody>
+                        <tr>
+                            <td class="admet-property">CYP2C9</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.cyp2c9|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">CYP2C9 Substrate</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.cyp2c9_substrate|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">CYP2D6</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.cyp2d6|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">CYP2D6 Substrate</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.cyp2d6_substrate|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">CYP3A4</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.cyp3a4|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">CYP3A4 Substrate</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.cyp3a4_substrate|floatformat:2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="admet-table-container">
+                <h3 class="admet-subtitle">Excretion</h3>
+                <table class="admet-table">
+                    <tbody>
+                        <tr>
+                            <td class="admet-property">Clearance Hepatocyte</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.clearance_hepatocyte|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">Clearance Microsome</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.clearance_microsome|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">Half-life</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.half_life|floatformat:2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="admet-table-container">
+                <h3 class="admet-subtitle">Toxicity</h3>
+                <table class="admet-table">
+                    <tbody>
+                        <tr>
+                            <td class="admet-property">Ames</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.ames|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">DILI</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.dili|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">hERG</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.herg|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="admet-property">LD50</td>
+                            <td class="admet-value">{{ admet_data.admet_properties.ld50|floatformat:2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    {% else %}
+        <p class="no-data">No ADMET data available.</p>
+    {% endif %}
+</div>
+
+<style>
+    .admet-box {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .admet-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .admet-tables {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .admet-table-container {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .admet-table-container:last-child {
+        margin-right: 0;
+    }
+
+    .admet-subtitle {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .admet-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .admet-table td {
+        padding: 8px;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .admet-property {
+        font-weight: bold;
+    }
+
+    .admet-value {
+        font-size: 14px;
+    }
+
+    .no-data {
+        font-style: italic;
+        color: #6c757d;
+    }
+</style>

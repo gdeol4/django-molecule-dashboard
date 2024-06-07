@@ -7,22 +7,40 @@
     </div>
     <div class="box-container">
         <div class="box">
-            <h2>Box 2</h2>
-            <p>Praesent eu risus hendrerit ligula tempus pretium.</p>
-            <img src="https://via.placeholder.com/300x200" alt="Placeholder">
-        </div>
-        <div class="box">
-            <h2>Box 3</h2>
-            <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec.</p>
-            <img src="https://via.placeholder.com/300x200" alt="Placeholder">
+            {% include 'dash/admet_box.html' %}
         </div>
     </div>
 </div>
-<div class="properties-box-container">
+
+<div class="box-container">
+
 <div class="properties-box">
     {% include 'dash/molecule_properties.html' %}
 </div>
+<div class="properties-box">
+    {% include 'dash/protein_target_predictions_box.html' %}
 </div>
+</div>
+
+<div class="box-container">
+
+    <div class="properties-box">
+        {% include 'dash/superpred_target_predictions_box.html' %}
+    </div>
+    <div class="properties-box">
+        {% include 'dash/superpred_indications_box.html' %}
+    </div>
+    </div>
+
+<div class="box-container">
+
+    <!-- <div class="properties-box">
+        {% include 'dash/superpred_indications_box.html' %}
+    </div> -->
+        
+        
+    </div>
+
 {% endblock %}
 
 {% block extra_css %}
@@ -34,7 +52,7 @@
     }
     .box-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 20px;
     }
     .box {
@@ -54,9 +72,11 @@
         padding: 20px;
         margin-top: 20px;
     }
-    .properties-box-container {
-    max-width: 30%;
-    margin: 20px auto 0;
+    
+    @media screen and (max-width: 768px) {
+        .dashboard {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
 {% endblock %}
