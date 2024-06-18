@@ -1,0 +1,26 @@
+<!-- templates/dash/protein_target_detail.html -->
+{% extends 'dash/rank.html' %}
+
+{% block protein_target_detail %}
+<div class="mt-8">
+  <h3 class="text-xl font-bold mb-4">Top 10 Molecules for {{ protein_target }}</h3>
+  <table class="table-auto w-full">
+    <thead>
+      <tr class="bg-gray-200">
+        <th class="px-4 py-2">InChIKey</th>
+        <th class="px-4 py-2">Affinity (μM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for molecule in top_molecules %}
+        <tr>
+          <td class="border px-4 py-2">
+            <a href="{% url 'dash:molecule_dashboard' inchikey=molecule.inchikey %}" class="text-blue-500 hover:text-blue-700">{{ molecule.inchikey }}</a>
+          </td>
+          <td class="border px-4 py-2">{{ molecule.affinity|floatformat:2 }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

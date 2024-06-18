@@ -1,0 +1,47 @@
+<h1>Ranking DataFrame</h1>
+
+<form method="get">
+    <label for="protein">Select a protein:</label>
+    <select name="protein" id="protein">
+        <option value="">Select a protein</option>
+        <option value="casp1" {% if protein == 'casp1' %}selected{% endif %}>casp1</option>
+        <option value="cox1" {% if protein == 'cox1' %}selected{% endif %}>cox1</option>
+        <option value="flap" {% if protein == 'flap' %}selected{% endif %}>flap</option>
+        <option value="jak1" {% if protein == 'jak1' %}selected{% endif %}>jak1</option>
+        <option value="jak2" {% if protein == 'jak2' %}selected{% endif %}>jak2</option>
+        <option value="lck" {% if protein == 'lck' %}selected{% endif %}>lck</option>
+        <option value="magl" {% if protein == 'magl' %}selected{% endif %}>magl</option>
+        <option value="mpges1" {% if protein == 'mpges1' %}selected{% endif %}>mpges1</option>
+        <option value="pdl1" {% if protein == 'pdl1' %}selected{% endif %}>pdl1</option>
+        <option value="trka" {% if protein == 'trka' %}selected{% endif %}>trka</option>
+        <option value="trkb" {% if protein == 'trkb' %}selected{% endif %}>trkb</option>
+        <option value="tyk2" {% if protein == 'tyk2' %}selected{% endif %}>tyk2</option>
+        <option value="alox5" {% if protein == 'alox5' %}selected{% endif %}>alox5</option>
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+{% if df is not none %}
+    {% if not df.empty %}
+        <table>
+            <thead>
+                <tr>
+                    {% for col in df.columns %}
+                        <th>{{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for _, row in df.iterrows %}
+                    <tr>
+                        {% for cell in row %}
+                            <td>{{ cell }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No data available for the selected protein.</p>
+    {% endif %}
+{% endif %}

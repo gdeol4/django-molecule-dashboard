@@ -61,8 +61,15 @@ def smiles_to_svg(smiles, size=(300, 300)):
 from .models import GeneratedFlavonoid, AdmetProperties, ProteinTargetPrediction, SuperPredTargetPrediction, SuperPredIndication
 import pandas as pd
 
-def get_flavonoid_data():
-    flavonoid = GeneratedFlavonoid.objects.first()
+# dash/utils.py
+from .models import GeneratedFlavonoid, AdmetProperties, ProteinTargetPrediction, SuperPredTargetPrediction, SuperPredIndication
+import pandas as pd
+
+def get_flavonoid_data(inchikey=None):
+    if inchikey:
+        flavonoid = GeneratedFlavonoid.objects.filter(inchikey=inchikey).first()
+    else:
+        flavonoid = GeneratedFlavonoid.objects.first()
 
     if flavonoid:
         admet_properties = AdmetProperties.objects.filter(inchikey=flavonoid).first()
@@ -86,7 +93,6 @@ def get_flavonoid_data():
         data = {}
 
     return data
-
 def get_superpred_target_predictions(inchikey):
     superpred_target_predictions = SuperPredTargetPrediction.objects.filter(inchikey=inchikey)
     data = []
@@ -116,3 +122,23 @@ def get_superpred_indications(inchikey):
         })
     df = pd.DataFrame(data)
     return df
+
+# dash/utils.py
+def get_protein_targets():
+    protein_targets = [
+        'ALOX5', 'CASP1', 'COX1', 'FLAP', 'JAK1', 'JAK2', 'LCK', 'MAGL',
+        'MPGES1', 'PDL1', 'TRKA', 'TRKB', 'TYK2'
+    ]
+    return protein_targets
+
+# dash/utils.py
+def get_top_molecules(protein_target):
+    protein_target_predictions = ProteinTargetPrediction.objects.order_by(f'{protein_target.lower()}_affinity_uM')[:10]
+    data = []
+    for prediction in protein_target_predictions:
+        data.append({
+            'inchikey': prediction.inchikey,
+            'affinity': getattr(prediction, f'{protein_target.lower()}_affinity_uM')
+        })
+    return data
+
